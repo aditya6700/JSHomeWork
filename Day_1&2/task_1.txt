@@ -1,0 +1,43 @@
+-> 1. function to search for a particular character in a string
+-> 2. function to convert minutes to seconds
+-> 3. function to search for a element in a array of strings
+-> 4. function to display only elements containing 'a' in them from a array
+-> 5. Print an array in reverse order
+
+-> 6. Create a array containing five objects with properties { name, age , city , salary }
+    * Create a search functionality for name and city
+    * Delete function to delete records
+
+-> 7. Create a blank array and later on create a add data functionality on object containing {name, source,
+destination, number, passenger capacity}
+    * A function to add new data
+    * Display data in in object
+    * Search by source and destination
+
+
+-> 8. Create an array of objects with objects having the following properties
+    * {name (string), age (number), country (string), hobbies array (string [ ] ) }
+    * Write a function to display all the objects on the console
+    * Write a function to display all the objects having age less than 30
+    * Write a function to display all the objects having country India 
+
+-> 9. Create a function on calling the function it should return 
+    * Current Date
+    * Current Time
+    * Current Day 
+    * Current Month
+    * Current Year
+    example output:- Sunday 20 December 2020  10:22 
+
+-> 10. Create a list that contains some numbers
+    * Write a function that accepts a value and operation that is to be performed
+    * output should be the the operation performed on the array with the given value
+    * use minimum 6 operators
+
+-> 11. Create a functionality that accepts mode of operation and operands
+    * operands should not be limited
+    * return result after peration performed on the operands
+
+-> 12. Create and object which contains all the available datatypes and a function
+    * Call the inside function
+        * it should return all the datatypes of the elements present in the object 
