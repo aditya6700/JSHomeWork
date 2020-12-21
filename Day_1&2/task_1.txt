@@ -1,3 +1,7 @@
+NOTE: Make seperate file for each question name then with question no.
+
+    ******* DON'T COPY *******
+
 -> 1. function to search for a particular character in a string
 -> 2. function to convert minutes to seconds
 -> 3. function to search for a element in a array of strings
