@@ -8,17 +8,6 @@ NOTE: Make seperate file for each question name then with question no.
 -> 4. function to display only elements containing 'a' in them from a array
 -> 5. Print an array in reverse order
 
--> 6. Create a array containing five objects with properties { name, age , city , salary }
-    * Create a search functionality for name and city
-    * Delete function to delete records
-
--> 7. Create a blank array and later on create a add data functionality on object containing {name, source,
-destination, number, passenger capacity}
-    * A function to add new data
-    * Display data in in object
-    * Search by source and destination
-
-
 -> 8. Create an array of objects with objects having the following properties
     * {name (string), age (number), country (string), hobbies array (string [ ] ) }
     * Write a function to display all the objects on the console
@@ -42,6 +31,20 @@ destination, number, passenger capacity}
     * operands should not be limited
     * return result after peration performed on the operands
 
--> 12. Create and object which contains all the available datatypes and a function
-    * Call the inside function
-        * it should return all the datatypes of the elements present in the object 
+-> 12. Create an array which contains all the available datatypes 
+    * print datatype of every element in the array using forEach
+
+
+Folder name should be  yourname_task_<no>   
+                                ex:- bhavitha_task_1
+                                     sandhya_task_1
+
+-> 6. Create a array containing five objects with properties { name, age , city , salary }
+    * Create a search functionality for name and city
+    * Delete function to delete records
+
+-> 7. Create a blank array and later on create a add data functionality on object containing {name, source,
+destination, number, passenger capacity}
+    * A function to add new data
+    * Display data in in object
+    * Search by source and destination
