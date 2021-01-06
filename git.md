@@ -14,3 +14,5 @@
 
 - To push files to git repository
     - `git push -u origin master`
+
+- To clone existing  repository `git clone <link>`
