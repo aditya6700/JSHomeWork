@@ -16,7 +16,7 @@ const fun1 = () => {
     console.log('fun1 ended')
 };
 
-fun1();
+// fun1();
 
 
 // Asynchronous
