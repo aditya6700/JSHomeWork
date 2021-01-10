@@ -2,8 +2,8 @@
 - To check git status `git status`
 
 > ### Git configuration  ( 1 time )
->   - username `git config --globaluser.name("")`
->   - email `git config --globaluser.email(")`
+>   - username `git config --global user.name " "`
+>   - email `git config --global user.email ""`
 
 - To add files to git repository
   - `git add <file_name>`  -- to add specific file

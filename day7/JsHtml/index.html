@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+
+        <!-- DOM  ---- Document Object Model
+            1. Tags
+            2. Elements
+            3. Attributes
+
+        example
+            <input id="name" class = "a"> hello </input>
+            here,
+                '<' and '>' are Tags
+                'id' and 'class' are attributes
+                'hello' is content
+                The whole combination is called Element -->
+
+                <!-- QuerySelector
+                    To access ID we use     --------   #
+                    To access CLASS we use  --------   .
+                    To access TAG we use    --------   "tagname" -->
+
+                    <!-- *    Astresisk  -->
+            
+
+        
+        <h1 style="color:rgb(166, 2, 172)"> 
+            <span id="dom" style="color: rgb(243, 65, 110);"> DOM </span>
+        Document Object Model </h1>
+
+        <h2 id='main'> When a web page is loaded, the browser creates a Document
+            Object Model of the page. Everything is a Node </h2>
+        
+        <h3 id="children"> Documents are modeled using objects </h3> 
+
+        <div class="js">
+            <h1>
+                hello world
+            </h1>
+        </div>
+        
+        <h4> Attributes in our page is an object 1</h4>
+        
+        <h4> Attributes in our page is an object 2</h4>
+        
+        <h4> Attributes in our page is an object 3</h4>
+
+        <script>
+
+            let idData = document.getElementById('main').innerHTML;
+            // console.log(idData);
+
+            let tagData = document.getElementsByTagName('h4')[2].innerHTML;
+            // console.log(tagData);
+
+            let classData = document.getElementsByClassName('js')[0].innerText;
+            // console.log(classData);
+
+            console.log(document.querySelector('#main').innerHTML);
+            console.log(document.querySelector('.js').innerText);
+            console.log(document.querySelector('h4').innerHTML);
+            console.log(document.querySelectorAll('h4')[1].innerHTML);
+
+
+        </script>
+
+    </body>
+</html>
