@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 8</title>
+    <noscript> your browser doesnot support javascript </noscript>
+</head>
+<body>
+
+   <input type="text" id="printData" value="">
+   <button onclick="printData()" >print</button>
+
+   <form onsubmit="getData(event)">
+       <input type="text"  id="inp1">
+       <input type="submit" value="click me">
+   </form>
+
+   <form onsubmit="copyData(event)" id="myform" >
+        <input type="text" id="inp2">
+        <input type="text" id="inp3">
+        <input type="submit" value="swap">
+   </form>
+
+   <form onmouseout="streamData(event)" >
+        <input type="text" id="inp4" value="microsoft">
+        <input type="text" id="inp5">
+    </form>
+
+    <input type="text" id="listdata">
+    <button onclick="addItem()" >add</button>
+    <button onclick="printArray()" >print array</button>
+    <button onclick="clearArray()" >clear</button>
+    <p id="mylist"></p>
+
+    <button onclick="magic()">click to magic</button>
+
+    <figure>
+        <img src="https://picsum.photos/200/200" alt="randomimage">
+    </figure>
+
+    <form onsubmit="addData(event)" id="myform3" >
+        <input type="text" id="name">
+        <input type="text" id="age">
+        <input type="submit" value="add">
+   </form>
+   <form id="myform4" >
+    <input type="text" id="sname" onkeyup="searchData(event)">
+</form>
+    
+    <div class="table_div col-md-6">
+        <table class="table3">
+            <thead>
+            <tr>
+                <th scope="col">Sno</th>
+                <th scope="col">Name</th>
+                <th scope="col">Age</th>
+            </tr>
+            </thead>
+            <tbody class="tablebody3">
+           
+            </tbody>
+        </table>
+
+    </div>
+
+    <div class="table_div col-md-6">
+        <table class="mytable">
+            <thead>
+            <tr>
+                <th scope="col">sno</th>
+                <th scope="col">Name</th>
+                <th scope="col">Age</th>
+                <th scope="col">Phone</th>
+            </tr>
+            </thead>
+            <tbody class="tablebody">
+           
+            </tbody>
+        </table>
+
+    </div>
+
+    
+    <figure>
+        <img id="myimg" src="" alt="randomimage">
+    </figure>
+    <input type="text" id="search" onkeydown="liveSearch()">
+    <button onkeydown="liveSearch()">search</button>
+   
+  <script src="index.js"></script>
+
+</body>
+</html>

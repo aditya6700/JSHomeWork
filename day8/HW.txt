@@ -1,0 +1,50 @@
+NOTE: Make seperate file for each question name then with question no.
+      Mention the question in h1 tag as heading.
+
+    ******* DON'T COPY *******
+
+-> 1. Swaping two input fields
+
+-> 2. Check all the diffrent events for input
+
+-> 3. Create a calculator
+
+-> *. Create a functionality that by clicking on a button the following should be done
+        4 - An image should change randomly.
+        5 - Take input using promt
+            a - display alert if the input is string
+            b - confirm if the input is number and if it is prime
+
+-> 6. Create a array containing five objects with properties { name, age , city , salary }
+        * Create a search functionality for name and city
+        * Delete function to delete records
+
+-> 7. Create a blank array and later on create a add data functionality on object containing {name, source,
+        destination, train number, passengers count}
+        * A function to add new data
+        * Display data in in object
+        * Search by source and destination
+        * Data should be permanent
+
+-> 8. Create a functionality that on clicking it the color of the div changes randomly.
+
+********** BONUS **********
+A - create a button to toggle dark and light theme
+B - create a toggle button so that it toggles the heading of the webpage
+
+---------- HINTS ----------
+3 - use rest operator and HOF
+    use '+' '/' '*' '-' '%' 'average'
+4 - https://picsum.photos/id/45/200/300
+        45 is your number
+        200/300 is your size
+    use Math object
+5 - use conditions if possible try ternary operators
+8 - to access style property 
+        document.getElementById(<yourid>).style.<property>
+        ex- document.getElementById('spanid').style.color
+
+
+
+Folder name should be yourname_task_<no>   ex:- david_task_1
+File names should be question number followed by name ex:- q1_dsa.js  (dsa -> yourname_shortcut)                                     
