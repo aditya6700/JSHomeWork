@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        body{
+            background-color: aquamarine;
+        }
+        .parent{
+            width: 40%;
+            height: 50vh;
+            background-color: aqua;
+            margin: 10rem;
+            margin-left: 22rem;
+            border: 10px;
+            border-style: solid;
+            border-radius: 10px;
+            border-color: antiquewhite;
+        }
+        .child{
+            width: 50%;
+            height: 30vh;
+            background-color: greenyellow;
+            margin: 50px;
+            margin-left: 120px;
+            justify-content: center;
+            border: 10px;
+            border-style: solid;
+            border-radius: 10px;
+            border-color: antiquewhite;
+        }
+    </style>
+</head>
+<body>
+    <div class="outer">
+        <div class="parent" id="parentDiv">
+            <div class="child" id="childDiv">
+
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let parentdiv = document.getElementById("parentDiv");
+        let childdiv = document.getElementById("childDiv");
+
+        const parentCall = () => {
+            alert("parent div clicked")
+        }
+
+        const childCall = () => {
+            alert("child div clicked");
+           // event.stopPropagation()
+        }
+
+        // capturing phase
+        parentdiv.addEventListener('click',parentCall,true)
+        childdiv.addEventListener('click',childCall,true);
+
+        // // bubbling phase
+        // parentdiv.addEventListener('click',parentCall,false);
+        // childdiv.addEventListener('click',childCall,false) ;
+        
+        
+    </script>
+</body>
+</html>
