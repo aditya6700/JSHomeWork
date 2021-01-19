@@ -1,0 +1,25 @@
+NOTE: Make seperate file for each question name then with question no.
+      Mention the question in h1 tag as heading.
+      Use HTML scripts and JS
+
+    ******* DON'T COPY *******
+
+-> 1. Create a dynamic clock.
+
+-> 2. Create a form validator for email,phone,username,password and verify password
+
+-> 3. Convert milliseconds to sconds,minutes,hours (only JS)
+
+-> 4. Random text generator on clicking on a button
+
+---------- HINTS ----------
+1 - use basic common sense you will get the answer
+2 - use eventListeners
+4 - use Math module for random number generation
+    create an array containing some text
+    display elements in list using random number
+
+
+
+Folder name should be yourname_task_<no>   ex:- david_task_1
+File names should be question number followed by name ex:- q1_dsa.js  (dsa -> yourname_shortcut)                                     
